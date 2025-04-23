@@ -1,6 +1,15 @@
-﻿namespace MedixCare.Data
+﻿using MedixCare.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace MedixCare.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options){ 
+        
+        }
+
+        //Add Dbsets Later 
     }
 }

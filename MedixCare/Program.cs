@@ -1,5 +1,7 @@
 using Hangfire;
+using MedixCare.Utilities;
 using MedixCare.Data;
+using MedixCare.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,7 +9,7 @@ namespace MedixCare
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +21,14 @@ namespace MedixCare
 
 
             //add Identity 
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/Login";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+            });
 
             //AddSession
             builder.Services.AddSession(options =>
@@ -29,18 +38,13 @@ namespace MedixCare
                 options.Cookie.IsEssential = true;
             });
 
-            builder.Services.ConfigureApplicationCookie(options =>
-            {
-                options.LoginPath = "/Account/Login";
-                options.AccessDeniedPath = "/Account/AccessDenied";
-                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
-            });
+
+            //Add RoleManager and UserManager 
+            //builder.Services.AddDefaultIdentity<ApplicationUser>().AddRoles<IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();    
+            
 
 
 
-
-
-            //builder.Services.AddAutoMapper(typeof(Program));
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             builder.Services.AddControllersWithViews();
@@ -53,6 +57,23 @@ namespace MedixCare
 
             var app = builder.Build();
 
+            //Now you can create a scope and call your DB initializer
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                await DbInitializer.SeedRolesAndAdmin(services);
+            }
+
+            //Scoped Service Initialization
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                await RoleInitializer.SeedRolesAsync(services);
+
+            }
+
+
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
@@ -61,14 +82,15 @@ namespace MedixCare
                 app.UseHsts();
             }
 
-            app.UseSession();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",
