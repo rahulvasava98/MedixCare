@@ -23,61 +23,76 @@ namespace MedixCare.Controllers
         public IActionResult Register() => View();
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            if (!ModelState.IsValid) return View(model);
-
-            var user = new ApplicationUser
+            if (ModelState.IsValid)
             {
-                UserName = model.Email,
-                Email = model.Email,
-                FullName = model.FullName,
-                Role = model.Role
-            };
+                var user = new ApplicationUser
+                {
+                    FullName = model.FullName,
+                    UserName = model.Email,
+                    Email = model.Email,
+                    Role = model.Role
+                };
 
-            var result = await _userManager.CreateAsync(user, model.Password);
+                var result = await _userManager.CreateAsync(user, model.Password);
 
-            if (result.Succeeded)
-            {
-                await _userManager.AddToRoleAsync(user, model.Role);
-                TempData["Success"] = "Register SuccessFull";
-                return RedirectToAction("Login");
-            }
+                if (result.Succeeded)
+                {
+                    if (!string.IsNullOrEmpty(model.Role))
+                    {
+                        await _userManager.AddToRoleAsync(user, model.Role);
 
-            foreach (var error in result.Errors)
-            {
-                ModelState.AddModelError("", error.Description);
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, "Patient");// fallBack
+                    }
+
+                    await _signInManager.SignInAsync(user, isPersistent: false);
+                    return RedirectToAction("Index", "Home");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
             }
 
             return View(model);
-
         }
 
         [HttpGet]
         public IActionResult Login() => View();
 
         [HttpPost]
-
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            if(!ModelState.IsValid) return View(model);
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
 
-            var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+                if (result.Succeeded)
+                {
+                    
+                    var user = await _userManager.FindByEmailAsync(model.Email);
+                    var roles = await _userManager.GetRolesAsync(user);
 
-            if (result.Succeeded) { 
-                
-                var user = await _userManager.FindByEmailAsync(model.Email);
-                var roles = await _userManager.GetRolesAsync(user);
+                    if (roles.Contains("Admin"))
+                        return RedirectToAction("Index", "Admin");
+                    else if (roles.Contains("Doctor"))
+                        return RedirectToAction("Dashboard", "Doctor");
+                    else if (roles.Contains("Staff"))
+                        return RedirectToAction("Dashboard", "Staff");
+                    else
+                        return RedirectToAction("Index", "Home");
+                }
 
-                TempData["Success"] = "Login SuccessFul !";
-
-                return roles.Contains("Admin") ? RedirectToAction("Index", "Admin"):
-                roles.Contains("Doctor") ? RedirectToAction("Index", "Doctor"):
-                roles.Contains("Patient") ? RedirectToAction("Index", "Patient"):
-                RedirectToAction("Index","Dashboard");
-                        
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             }
-            TempData["Error"] = "Invalid login attempt.";
+
             return View(model);
 
         }

@@ -96,16 +96,68 @@
                             </ul>
                         </li>
                         <li><a href="#contact">Contact</a></li>
+                        
+                        <!-- Role-based dashboard links -->
+                        @* 🔽 Add the role-based links below *@
+                            @if (User.IsInRole("Admin"))
+                            {
+                            <li class="dropdown">
+                                <a href="#"><span>Admin</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="@Url.Action("Dashboard", "Admin")">Admin Dashboard</a></li>
+                                    <li><a href="@Url.Action("ManageDoctors", "Admin")">Manage Doctors</a></li>
+                                    <li><a href="@Url.Action("ManagePatients", "Admin")">Manage Patients</a></li>
+                                </ul>
+                            </li>
+                                
+                            }
+                            @if (User.IsInRole("Doctor"))
+                            {
+                            <li class="dropdown">
+                                <a href="#"><span>Doctor</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="@Url.Action("Dashboard", "Doctor")">Doctor Dashboard</a></li>
+                                    <li><a href="@Url.Action("MyAppointments", "Doctor")">My Appointments</a></li>
+                                </ul>
+                            </li>
+                                
+                            }
+                            @if (User.IsInRole("Staff"))
+                            {
+                            <li class="dropdown">
+                                <a href="#"><span>Doctor</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="@Url.Action("Dashboard", "Staff")">Staff Dashboard</a></li>
+                                    <li><a href="@Url.Action("PendingTasks", "Staff")">Pending Tasks</a></li>
+                                </ul>
+                            </li>
+                                
+                            }
+
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
 
                 <a class="cta-btn d-none d-sm-block" href="#appointment">Make an Appointment</a>
-                <a class="cta-btn d-none d-sm-block" asp-controller="Account" asp-action="Register">Register</a>
+                @if (User.IsInRole("Admin") || User.IsInRole("Doctor") || User.IsInRole("Staff"))
+                {
+                    @* <li class="nav-item"> *@
+                        <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline">
+                            <button type="submit" class="cta-btn d-none d-sm-block">Logout</button>
+                        </form>
+                    @* </li> *@
+                }
+                else
+                {
+                    <a class="cta-btn d-none d-sm-block" asp-controller="Account" asp-action="Login">Login</a>
+
+                }
 
             </div>
 
         </div>
+        <!-- 🔽 This line injects login/logout/account links -->
+        @* <partial name="_LoginPartial" /> *@
 
     </header>
 

@@ -1,0 +1,28 @@
+﻿@model MedixCare.ViewModels.StaffDashboardViewModel
+@{
+    ViewData["Title"] = "Staff DashBoard";
+}
+
+<h1>
+    @ViewData["Title"]
+</h1>
+<h4>Pending Tasks</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>Assigned Date</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* @foreach (var task in Model.PendingTasks)
+        {
+            <tr>
+                < td>@task.Description</td>
+                <td>@task.AssignedDate.ToShortDateString()</td>
+                <td>@task.Status</td>
+            </tr>
+        } *@
+    </tbody>
+</table>

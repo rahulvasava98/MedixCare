@@ -63,16 +63,10 @@ namespace MedixCare
             {
                 var services = scope.ServiceProvider;
                 await DbInitializer.SeedRolesAndAdmin(services);
-            }
-
-            //Scoped Service Initialization
-            using (var scope = app.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                await RoleInitializer.SeedRolesAsync(services);
 
             }
 
+            
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

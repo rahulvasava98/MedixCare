@@ -1,0 +1,28 @@
+﻿@* @model IEnumerable<Medix> *@
+@{
+    ViewData["Title"] = "Doctor DashBoard";
+}
+
+<h1>
+    @ViewData["Title"]
+</h1>
+<h4>Upcoming Appointments</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Patient</th>
+            <th>Date</th>
+            <th>Reason</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* @foreach (var appt in Model)
+        {
+            <tr>
+                <td>@appt.PatientName</td>
+                <td>@appt.Date.ToString("dd MMM yyyy hh:mm tt")</td>
+                <td>@appt.Reason</td>
+            </tr>
+        } *@
+    </tbody>
+</table>

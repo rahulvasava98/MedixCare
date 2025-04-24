@@ -1,0 +1,53 @@
+﻿
+@using Microsoft.AspNetCore.Identity
+@using MedixCare.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <span class="nav-link text-dark">Hello, @UserManager.GetUserName(User)!</span>
+        </li>
+        @if (User.IsInRole("Admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Admin Dashboard</a>
+            </li>
+        }
+        else if (User.IsInRole("Doctor"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Doctor" asp-action="Index">Doctor Dashboard</a>
+            </li>
+        }
+        else if (User.IsInRole("Staff"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Index">Staff Dashboard</a>
+            </li>
+        }
+        else if (User.IsInRole("Patient"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Patient" asp-action="Index">Patient Portal</a>
+            </li>
+        }
+
+        <li class="nav-item">
+            <form asp-controller="Account" asp-action="Logout" method="post" class="form-inline">
+                <button type="submit" class="btn btn-link nav-link text-dark">Logout</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="Account" asp-action="Login">Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="Account" asp-action="Register">Register</a>
+        </li>
+    }
+</ul>

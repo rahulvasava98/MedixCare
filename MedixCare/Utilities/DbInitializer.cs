@@ -20,25 +20,27 @@ namespace MedixCare.Utilities
                 }
             }
 
-            //seed main
-            var admin = await userManager.FindByEmailAsync("admin@medixcare.com");
-            if (admin != null)
+            var adminEmail = "admin@medixcare.com";
+            var adminPassword = "Admin@123"; // Use a strong password!
+
+            var adminUser = await userManager.FindByEmailAsync(adminEmail);
+            if (adminUser == null)
             {
                 var newAdmin = new ApplicationUser
                 {
-
-                    UserName = "admin@medixcare.com",
-                    Email = "admin@medixcare.com",
-                    FullName = "System Administator",
-                    EmailConfirmed = true
-
+                    UserName = adminEmail,
+                    Email = adminEmail,
+                    FullName = "System Administrator",
+                    EmailConfirmed = true,
+                    Role = roles[0]
                 };
 
-                await userManager.CreateAsync(newAdmin, "Admin@123");
-                await userManager.AddToRoleAsync(newAdmin, "Admin");
-
+                var result = await userManager.CreateAsync(newAdmin, adminPassword);
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(newAdmin, "Admin");
+                }
             }
         }
     }
-
 }

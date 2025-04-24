@@ -1,4 +1,5 @@
 ﻿using MedixCare.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,9 @@ namespace MedixCare.Data
         
         }
 
-        //Add Dbsets Later 
+    
+        
     }
+    
+
 }
