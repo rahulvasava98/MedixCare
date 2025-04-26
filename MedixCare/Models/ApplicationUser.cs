@@ -7,5 +7,9 @@ namespace MedixCare.Models
         public string FullName { get; set; }
 
         public string Role {  get; set; } //for easier access
+
+
+        //ROles Handles via IdentityRole
+        public ICollection<Notification>? Notifications { get; set; }
     }
 }

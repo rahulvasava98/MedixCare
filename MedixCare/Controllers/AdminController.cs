@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using MedixCare.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,10 +7,18 @@ namespace MedixCare.Controllers
 {
     public class AdminController : Controller
     {
-        [Authorize(Roles = "Admin")]
-        public IActionResult Index()
+        private readonly IUnitOfWork _unitOfWork;
+
+        public AdminController(IUnitOfWork unitOfWork)
         {
-            return View();
+            _unitOfWork = unitOfWork;
+        }
+
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Index()
+        {
+            var GetUserData = "Kamlessh";
+            return View(GetUserData);
         }
 
         [HttpGet]

@@ -1,8 +1,28 @@
-﻿
+﻿@model IEnumerable<MedixCare.Models.ApplicationUser>
 @{
     ViewData["Title"] = "Admin Dashboard";
 }
 
-<h2>@ViewData["Title"]</h2>
-<p>Welcome to the Admin Dashboard!</p>
+<section class="container">
+    <h2>@ViewData["Title"]</h2>
+    <p>Welcome to the Admin Dashboard!</p>
 
+<table class="table">
+    <thead>
+        <tr>
+            <th>FullName</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var User in Model)
+        {
+            <tr>
+                <td>@User.FullName</td>
+                <td>@User.Role</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+</section>

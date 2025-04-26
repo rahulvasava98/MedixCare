@@ -4,6 +4,7 @@ using MedixCare.Data;
 using MedixCare.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MedixCare.Mappings;
 
 namespace MedixCare
 {
@@ -54,6 +55,15 @@ namespace MedixCare
             builder.Services.AddMemoryCache();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
+            //Register Repositories in DI Container
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            //
+            builder.Services.AddAutoMapper(typeof(MedixCareMappingProfile));
+
 
             var app = builder.Build();
 
