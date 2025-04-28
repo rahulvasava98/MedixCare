@@ -1,4 +1,4 @@
-﻿using MedixCare.ViewModels;
+﻿using MedixCare.DTOs;
 
 namespace MedixCare.Services.Interfaces
 {

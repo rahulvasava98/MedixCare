@@ -42,6 +42,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/user/source/repos/MedixCare/MedixCare/Views/Department/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/MedixCare/MedixCare/Views/Department/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/MedixCare/MedixCare/Views/Department/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/source/repos/MedixCare/MedixCare/Views/Department/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/source/repos/MedixCare/MedixCare/Views/Doctor/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

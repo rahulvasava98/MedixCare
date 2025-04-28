@@ -1,0 +1,42 @@
+﻿@using MedixCare.ViewModels
+@model DepartmentViewModel
+@{
+    ViewData["Title"] = "Create Department";
+}
+
+<section class="container">
+    <h1>
+        @ViewData["Title"]
+    </h1>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="Description"></label>
+            <textarea asp-for="Description" class="form-control"></textarea>
+            <span asp-validation-for="Description" class="text-danger">
+            </span>
+        </div>
+        <div class="form-group my-2">
+            <label asp-for="ImageFile">Upload Image</label>
+            <input asp-for="ImageFile" type="file" class="form-control-file" accept=".jpg,.jpeg,.png,.gif"
+                   onchange="validateFile()" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+            <span id="fileError" class="text-danger"></span> <!-- Error message will show here -->
+
+        </div>
+        <button type="submit" class="btn btn-success">Create</button>
+        <a asp-action="Index" class="btn btn-secondary">Back</a>
+    </form>
+
+</section>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+   
+}

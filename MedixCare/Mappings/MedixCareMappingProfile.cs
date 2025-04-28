@@ -10,7 +10,7 @@ namespace MedixCare.Mappings
         public MedixCareMappingProfile() {
 
             //appointment Mappings
-            CreateMap<Appointment, DTOs.AppointmentDTO>().ReverseMap();
+            CreateMap<Appointment, AppointmentDTO>().ReverseMap();
 
 
             //Doctor Mappings
@@ -34,6 +34,13 @@ namespace MedixCare.Mappings
             //Notificatios Mappings
             CreateMap<Notification, NotificationDTO>().ReverseMap();
 
+
+            //For Department Crud
+            // Department -> DepartmentViewModel
+            CreateMap<Department, DepartmentViewModel>().ForMember(dest => dest.ImageFile, opt => opt.Ignore());
+
+            //// DepartmentViewModel -> Department
+            CreateMap<DepartmentViewModel, Department>().ForMember(dest => dest.Image, opt => opt.Ignore());
 
         }
 

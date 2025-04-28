@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MedixCare.Models.Department>
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<section class="container">
+    <h1 class="mb-3">
+        @ViewData["Title"]
+    </h1>
+
+    <a asp-action="Create" class="btn btn-primary mb-3">Create New Department</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var department in Model)
+            {
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(department.Image))
+                        {
+                            <img src="~/images/Department/@department.Image" alt="Image" width="80" height="80" />
+                        }
+                    </td>
+                    <td>@department.Name</td>
+                    <td>@department.Description</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@department.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@department.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>

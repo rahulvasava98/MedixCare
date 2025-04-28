@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Caching\" />
     <Folder Include="Jobs\" />
+    <Folder Include="wwwroot\NewFolder\" />
   </ItemGroup>
 
   <ItemGroup>

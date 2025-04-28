@@ -505,6 +505,22 @@
       "PackagePath": "staticwebassets\\health-svgrepo-com.svg"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\wwwroot\\images\\Department\\52469144-210a-446a-bc3e-f186143dd9ca_Screenshot_Ghibli.png",
+      "PackagePath": "staticwebassets\\images\\Department\\52469144-210a-446a-bc3e-f186143dd9ca_Screenshot_Ghibli.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\wwwroot\\images\\Department\\942c483c-93f5-41dd-9d22-48deeaa76479_image-1.jpg",
+      "PackagePath": "staticwebassets\\images\\Department\\942c483c-93f5-41dd-9d22-48deeaa76479_image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\wwwroot\\images\\Department\\a6bc5369-df1c-45f8-8948-703e97149e27_image-5.jpg",
+      "PackagePath": "staticwebassets\\images\\Department\\a6bc5369-df1c-45f8-8948-703e97149e27_image-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\wwwroot\\images\\Department\\bad5a1a9-efcc-4342-bdb4-cebef457abca_680317.jpg",
+      "PackagePath": "staticwebassets\\images\\Department\\bad5a1a9-efcc-4342-bdb4-cebef457abca_680317.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

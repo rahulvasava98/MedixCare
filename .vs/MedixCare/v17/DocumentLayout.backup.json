@@ -3,6 +3,121 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\MedixCare\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\utilities\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\utilities\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\mappings\\medixcaremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\mappings\\medixcaremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\views\\doctor\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\views\\doctor\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\views\\staff\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\views\\staff\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\fortry\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\fortry\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\fortry\\staffdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\fortry\\staffdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\fortry\\doctordashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\fortry\\doctordashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\crmcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\crmcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\stafftaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\stafftaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,64 +130,20 @@
       "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\mappings\\medixcaremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\mappings\\medixcaremappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\uploadedfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\uploadedfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\uploadedfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\uploadedfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\crmcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\crmcontactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|solutionrelative:medixcare\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CA7EA53-7189-4D53-8DE0-EA4D3044D6BE}|MedixCare\\MedixCare.csproj|c:\\users\\user\\source\\repos\\medixcare\\medixcare\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +157,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +165,174 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "MedixCare\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "MedixCare\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T13:24:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MedixCare\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "MedixCare\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T14:29:12.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "MedixCare\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAcwMYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T13:16:27.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\DepartmentViewModel.cs",
+              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\DepartmentViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\DepartmentViewModel.cs",
+              "RelativeToolTip": "MedixCare\\ViewModels\\DepartmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:36:13.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Utilities\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Utilities\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Utilities\\DbInitializer.cs",
+              "RelativeToolTip": "MedixCare\\Utilities\\DbInitializer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:29:46.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Data\\Repository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\Repository.cs",
+              "RelativeToolTip": "MedixCare\\Data\\Repository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T09:40:36.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MedixCare\\Views\\Department\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Delete.cshtml",
+              "RelativeToolTip": "MedixCare\\Views\\Department\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T11:07:20.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "MedixCare\\Data\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T09:40:45.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Models\\Department.cs",
+              "RelativeToolTip": "MedixCare\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:35:16.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Program.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Program.cs",
+              "RelativeToolTip": "MedixCare\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T10:04:11.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "MedixCare\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "MedixCare\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T13:37:23.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwGcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-26T14:10:03.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\IRepository.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Data\\IRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\IRepository.cs",
+              "RelativeToolTip": "MedixCare\\Data\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T09:38:54.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "MedixCare\\Data\\IUnitOfWork.cs",
@@ -107,72 +345,164 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "MedixCare\\Data\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\UnitOfWork.cs",
-              "RelativeToolTip": "MedixCare\\Data\\UnitOfWork.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvy4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T09:40:45.584Z",
-              "EditorCaption": ""
+              "DocumentIndex": 19,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Staff\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MedixCare\\Views\\Staff\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Staff\\Dashboard.cshtml",
+              "RelativeToolTip": "MedixCare\\Views\\Staff\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T12:28:15.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Program.cs",
-              "RelativeDocumentMoniker": "MedixCare\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Program.cs",
-              "RelativeToolTip": "MedixCare\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAcwDsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T10:04:11.019Z",
-              "EditorCaption": ""
+              "DocumentIndex": 18,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MedixCare\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "MedixCare\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T12:26:38.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "MedixCareMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Mappings\\MedixCareMappingProfile.cs",
               "RelativeDocumentMoniker": "MedixCare\\Mappings\\MedixCareMappingProfile.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Mappings\\MedixCareMappingProfile.cs",
               "RelativeToolTip": "MedixCare\\Mappings\\MedixCareMappingProfile.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCoAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:00:33.925Z",
+              "WhenOpened": "2025-04-26T11:00:33.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MedixCare\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAtwGEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:29:46.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICRMContactService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
-              "RelativeDocumentMoniker": "MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
-              "RelativeToolTip": "MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "StaffDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\ForTry\\StaffDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\ForTry\\StaffDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\ForTry\\StaffDashboardViewModel.cs",
+              "RelativeToolTip": "MedixCare\\ViewModels\\ForTry\\StaffDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:24:51.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:24:52.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "MedixCare\\Services\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "MedixCare\\Services\\Interfaces\\IEmailService.cs",
+              "DocumentIndex": 22,
+              "Title": "DoctorDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\ForTry\\DoctorDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\ForTry\\DoctorDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\ForTry\\DoctorDashboardViewModel.cs",
+              "RelativeToolTip": "MedixCare\\ViewModels\\ForTry\\DoctorDashboardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:22:35.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T12:24:40.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
+              "Title": "PatientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\PatientDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\PatientDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\PatientDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\PatientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:07:13.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Doctor\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "MedixCare\\Views\\Doctor\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Views\\Doctor\\Dashboard.cshtml",
+              "RelativeToolTip": "MedixCare\\Views\\Doctor\\Dashboard.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T12:28:53.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MedixCare\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:24:39.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "MedixCare\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:24:37.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\ForTry\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\ForTry\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\ForTry\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "MedixCare\\ViewModels\\ForTry\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:05:10.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppointmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\AppointmentDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\AppointmentDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\AppointmentDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\AppointmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:05:48.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StaffTaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\StaffTaskDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\StaffTaskDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\StaffTaskDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\StaffTaskDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:23:42.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\INotificationService.cs",
               "RelativeDocumentMoniker": "MedixCare\\Services\\Interfaces\\INotificationService.cs",
@@ -180,155 +510,107 @@
               "RelativeToolTip": "MedixCare\\Services\\Interfaces\\INotificationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:25:44.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T11:25:44.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\Repository.cs",
-              "RelativeDocumentMoniker": "MedixCare\\Data\\Repository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\Repository.cs",
-              "RelativeToolTip": "MedixCare\\Data\\Repository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwDwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "DepartmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\DepartmentDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\DepartmentDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\DepartmentDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\DepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T09:40:36.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T11:07:43.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\IRepository.cs",
-              "RelativeDocumentMoniker": "MedixCare\\Data\\IRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Data\\IRepository.cs",
-              "RelativeToolTip": "MedixCare\\Data\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T09:38:54.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UploadedFileDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\UploadedFileDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\UploadedFileDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\UploadedFileDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\UploadedFileDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:09:22.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NotificationDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\NotificationDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\NotificationDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\NotificationDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\NotificationDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:09:00.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InvoiceDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\InvoiceDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\InvoiceDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\InvoiceDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\InvoiceDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:08:32.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "CRMContactDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\CRMContactDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\CRMContactDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\CRMContactDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\CRMContactDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\CRMContactDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\CRMContactDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\CRMContactDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\CRMContactDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:08:09.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T11:08:09.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DepartmentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\DepartmentDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\DepartmentDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\DepartmentDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\DepartmentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:07:43.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PatientDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\PatientDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\PatientDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\PatientDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\PatientDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:07:13.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DoctorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\DoctorDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\DoctorDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\DoctorDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\DoctorDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:06:21.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppointmentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\AppointmentDTO.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\AppointmentDTO.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\AppointmentDTO.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\AppointmentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:05:48.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminDashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\AdminDashboardViewModel.cs",
-              "RelativeDocumentMoniker": "MedixCare\\ViewModels\\AdminDashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\ViewModels\\AdminDashboardViewModel.cs",
-              "RelativeToolTip": "MedixCare\\ViewModels\\AdminDashboardViewModel.cs",
+              "DocumentIndex": 31,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "MedixCare\\Services\\Interfaces\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:05:10.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T11:22:35.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
+              "Title": "ICRMContactService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
+              "RelativeDocumentMoniker": "MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
+              "RelativeToolTip": "MedixCare\\Services\\Interfaces\\ICRMContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:24:51.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UploadedFileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\UploadedFileDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\UploadedFileDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\UploadedFileDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\UploadedFileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:09:22.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NotificationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\NotificationDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\NotificationDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\NotificationDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\NotificationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:09:00.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "InvoiceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\InvoiceDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\InvoiceDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\InvoiceDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\InvoiceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:08:32.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DoctorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\DoctorDTO.cs",
+              "RelativeDocumentMoniker": "MedixCare\\DTOs\\DoctorDTO.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\DTOs\\DoctorDTO.cs",
+              "RelativeToolTip": "MedixCare\\DTOs\\DoctorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:06:21.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MedixCare\\MedixCare\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MedixCare\\Controllers\\AdminController.cs",
