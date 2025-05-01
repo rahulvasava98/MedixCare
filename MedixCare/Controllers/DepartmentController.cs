@@ -139,16 +139,6 @@ namespace MedixCare.Controllers
 
                 if(viewModel.ImageFile != null)
                 {
-                    //Delete old Image
-                    if (!string.IsNullOrEmpty(department.Image))
-                    {
-                        var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, "images/Department", department.Image);
-                        if (System.IO.File.Exists(oldImagePath))
-                        {
-                            System.IO.File.Delete(oldImagePath);
-                        }
-                    }
-
                     //validate file type
                     var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
                     var extension = Path.GetExtension(viewModel.ImageFile.FileName).ToLower();
@@ -170,7 +160,16 @@ namespace MedixCare.Controllers
                         return View(viewModel);
                     }
 
-
+                    //Delete old Image
+                    if (!string.IsNullOrEmpty(department.Image))
+                    {
+                        var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, "images/Department", department.Image);
+                        if (System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
+                   
                     string uniqueFileName = UploadedFile(viewModel.ImageFile);
                     department.Image = uniqueFileName;
 

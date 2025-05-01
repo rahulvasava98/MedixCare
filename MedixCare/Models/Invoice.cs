@@ -15,7 +15,7 @@ namespace MedixCare.Models
         [Required, StringLength(20)]
         public string Status { get; set; } = "Pending";
 
-        [ForeignKey(nameof(Department))]
+        [ForeignKey(nameof(Appointment))]
         public int AppointmentId { get; set; }
 
         public Appointment? Appointment { get; set; }

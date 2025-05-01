@@ -26,7 +26,7 @@
                     <td>
                         @if (!string.IsNullOrEmpty(department.Image))
                         {
-                            <img src="~/images/Department/@department.Image" alt="Image" width="80" height="80" />
+                            <img src="~/images/Department/@department.Image" class="object-fit-cover" alt="Image" width="100" height="100" />
                         }
                     </td>
                     <td>@department.Name</td>

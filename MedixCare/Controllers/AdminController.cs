@@ -17,8 +17,8 @@ namespace MedixCare.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
-            var GetUserData = "Kamlessh";
-            return View(GetUserData);
+            ViewBag.Department = await _unitOfWork.Departments.GetAllAsync();
+            return View();
         }
 
         [HttpGet]

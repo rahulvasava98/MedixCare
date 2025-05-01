@@ -97,11 +97,11 @@ namespace MedixCare.Migrations
 
             modelBuilder.Entity("MedixCare.Models.Appointment", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("AppointmentDate")
                         .HasColumnType("datetime2");
@@ -109,13 +109,7 @@ namespace MedixCare.Migrations
                     b.Property<int>("DoctorId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("DoctorId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("PatientId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("PatientId1")
                         .HasColumnType("int");
 
                     b.Property<string>("status")
@@ -123,15 +117,11 @@ namespace MedixCare.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.HasIndex("DoctorId");
 
-                    b.HasIndex("DoctorId1");
-
                     b.HasIndex("PatientId");
-
-                    b.HasIndex("PatientId1");
 
                     b.ToTable("Appointments");
                 });
@@ -202,9 +192,6 @@ namespace MedixCare.Migrations
                     b.Property<int>("DepartmentId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("DepartmentId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -221,8 +208,6 @@ namespace MedixCare.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("DepartmentId");
-
-                    b.HasIndex("DepartmentId1");
 
                     b.ToTable("Doctors");
                 });
@@ -241,9 +226,6 @@ namespace MedixCare.Migrations
                     b.Property<int>("AppointmentId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Appointmentid")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("InvoiceDate")
                         .HasColumnType("datetime2");
 
@@ -254,11 +236,8 @@ namespace MedixCare.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AppointmentId");
-
-                    b.HasIndex("Appointmentid")
-                        .IsUnique()
-                        .HasFilter("[Appointmentid] IS NOT NULL");
+                    b.HasIndex("AppointmentId")
+                        .IsUnique();
 
                     b.ToTable("Invoices");
                 });
@@ -270,9 +249,6 @@ namespace MedixCare.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ApplicationUserId")
-                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
@@ -286,8 +262,6 @@ namespace MedixCare.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ApplicationUserId");
 
                     b.HasIndex("RecipientId");
 
@@ -481,24 +455,16 @@ namespace MedixCare.Migrations
             modelBuilder.Entity("MedixCare.Models.Appointment", b =>
                 {
                     b.HasOne("MedixCare.Models.Doctor", "Doctor")
-                        .WithMany()
+                        .WithMany("Appointments")
                         .HasForeignKey("DoctorId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("MedixCare.Models.Doctor", null)
-                        .WithMany("Appointments")
-                        .HasForeignKey("DoctorId1");
-
                     b.HasOne("MedixCare.Models.Patient", "Patient")
-                        .WithMany()
+                        .WithMany("Appointments")
                         .HasForeignKey("PatientId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("MedixCare.Models.Patient", null)
-                        .WithMany("Appointments")
-                        .HasForeignKey("PatientId1");
 
                     b.Navigation("Doctor");
 
@@ -508,14 +474,10 @@ namespace MedixCare.Migrations
             modelBuilder.Entity("MedixCare.Models.Doctor", b =>
                 {
                     b.HasOne("MedixCare.Models.Department", "Department")
-                        .WithMany()
+                        .WithMany("Doctors")
                         .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("MedixCare.Models.Department", null)
-                        .WithMany("Doctors")
-                        .HasForeignKey("DepartmentId1");
 
                     b.Navigation("Department");
                 });
@@ -523,26 +485,18 @@ namespace MedixCare.Migrations
             modelBuilder.Entity("MedixCare.Models.Invoice", b =>
                 {
                     b.HasOne("MedixCare.Models.Appointment", "Appointment")
-                        .WithMany()
-                        .HasForeignKey("AppointmentId")
+                        .WithOne("Invoice")
+                        .HasForeignKey("MedixCare.Models.Invoice", "AppointmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("MedixCare.Models.Appointment", null)
-                        .WithOne("Invoice")
-                        .HasForeignKey("MedixCare.Models.Invoice", "Appointmentid");
 
                     b.Navigation("Appointment");
                 });
 
             modelBuilder.Entity("MedixCare.Models.Notification", b =>
                 {
-                    b.HasOne("MedixCare.Models.ApplicationUser", null)
-                        .WithMany("Notifications")
-                        .HasForeignKey("ApplicationUserId");
-
                     b.HasOne("MedixCare.Models.ApplicationUser", "Recipient")
-                        .WithMany()
+                        .WithMany("Notifications")
                         .HasForeignKey("RecipientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

@@ -15,5 +15,7 @@ namespace MedixCare.Models
 
         public ICollection<Doctor>? Doctors { get; set; }
 
+
+
     }
 }

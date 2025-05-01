@@ -32,38 +32,40 @@ namespace MedixCare.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Doctor - Department (Many Doctors belong to one Department)
+            // Doctor - Department
             modelBuilder.Entity<Doctor>()
                 .HasOne(d => d.Department)
-                .WithMany()
+                .WithMany(dep => dep.Doctors)
                 .HasForeignKey(d => d.DepartmentId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // Appointment - Doctor (Many Appointments to One Doctor)
+            // Appointment - Doctor
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Doctor)
-                .WithMany()
+                .WithMany(d => d.Appointments)
                 .HasForeignKey(a => a.DoctorId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Appointment - Patient (Many Appointments to One Patient)
+
+            // Appointment - Patient
             modelBuilder.Entity<Appointment>()
                 .HasOne(a => a.Patient)
-                .WithMany()
+                .WithMany(p => p.Appointments)
                 .HasForeignKey(a => a.PatientId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // Invoice - Appointment (Many Invoices to One Appointment)
+
+            // Invoice - Appointment (One-to-One)
             modelBuilder.Entity<Invoice>()
                 .HasOne(i => i.Appointment)
-                .WithMany()
-                .HasForeignKey(i => i.AppointmentId)
+                .WithOne(a => a.Invoice)
+                .HasForeignKey<Invoice>(i => i.AppointmentId)
                 .OnDelete(DeleteBehavior.Cascade);
 
             // Notification - ApplicationUser (Recipient)
             modelBuilder.Entity<Notification>()
                 .HasOne(n => n.Recipient)
-                .WithMany()
+                .WithMany(r => r.Notifications)
                 .HasForeignKey(n => n.RecipientId)
                 .OnDelete(DeleteBehavior.Cascade);
         }

@@ -15,11 +15,19 @@
         </tr>
     </thead>
     <tbody>
-        @foreach(var User in Model)
+            @foreach (var Department in ViewBag.Department)
         {
             <tr>
-                <td>@User.FullName</td>
-                <td>@User.Role</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(Department.Image))
+                        {
+                            <img src="~/images/Department/@Department.Image" class="object-fit-cover" alt="Image" width="100" height="100" />
+                        }
+                    </td>
+                    <td>@Department.Name</td>
+                    <td>@Department.Description</td>
+
+
             </tr>
         }
     </tbody>

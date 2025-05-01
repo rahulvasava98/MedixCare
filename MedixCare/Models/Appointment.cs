@@ -5,7 +5,7 @@ namespace MedixCare.Models
 {
     public class Appointment
     {
-        public int id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public DateTime AppointmentDate { get; set; }
